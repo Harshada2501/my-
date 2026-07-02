@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Now</title>
+  <style>
+    nav {
+      background:#333;
+      padding:15px 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .logo {
+      color:white;
+      font-size:20px;
+      font-weight:bold;
+    }
+
+    .order-btn {
+      background:#e91e63;
+      color:white;
+      text-decoration:none;
+      padding:10px 20px;
+      border-radius:25px;
+    }
+
+    .order-btn:hover {
+      background:#c2185b;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">My Shop</div>
+<a href="order.php?id=<?php echo $row['id']; ?>" class="order-btn">
+  🍨 Order Now
+</a>
+</nav>
+
+</body>
+</html>

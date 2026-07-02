@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      background: #fffaf7;
+      color: #333;
+    }
+    .order-btn {
+      background: #fff;
+      color: #ff4081;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .contact-wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 70px 90px;
+      text-align: center;
+    }
+    .contact{
+  position: relative;
+  padding-top: 120px;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.contact::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(8px);
+  z-index:1;
+}
+.contact-wrapper{
+  position: relative;
+  z-index:2;
+}
+.contact-info,
+.contact-extra{
+  flex:1;
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+}
+.contact-info:hover,
+.contact-extra:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.18);
+}
+.contact-info:hover,
+.contact-extra:hover{
+  border-left:5px solid #ff4081;
+}
+
+    .contact-title {
+      font-size: 2.9rem;
+      margin-bottom: 10px;
+      color: #ff4081;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 40px;
+    }
+    .contact-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      text-align: left;
+    }
+    .contact-info, .contact-extra {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .info-box {
+      margin-bottom: 20px;
+    }
+    .info-box h3 {
+      color: #ff7043;
+      margin-bottom: 5px;
+    }
+    .contact-extra h3 {
+      color: #ff7043;
+      margin-bottom: 15px;
+    }
+    .contact-extra ul {
+      list-style: none;
+      padding: 0;
+    }
+    .contact-extra li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      color: #333;
+      padding-left: 10px;
+    }
+    .fun-banner {
+      background: #ffe0eb;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+    .fun-banner h2 {
+      font-size: 2rem;
+      color: #ff4081;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #ff4081;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>Amul Ice Cream - Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🍦 AMUL<span> PARLOR</span></div>
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">📖 About Us</a>
+    <a href="products.html">🛍️ Products</a>
+    <a href="contact.html" class="active">📞 Contact</a>
+  </nav>
+</header>
+
+<section class="contact">
+  <div class="contact-wrapper">
+    <h1 class="contact-title">🍨 Get in Touch with Amul Parlor</h1>
+    </p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-box">
+          <h3>📍 Visit Us</h3>
+          <p>Amul Ice Cream Parlor,<br> Green Valley Road,<br> Pune, Maharashtra, India</p>
+        </div>
+
+        <div class="info-box">
+          <h3>📞 Call Us</h3>
+          <p>+91 93594 59922</p>
+        </div>
+
+        <div class="info-box">
+          <h3>📧 Email</h3>
+          <p>amulparlor@gmail.com</p>
+        </div>
+
+        <div class="info-box">
+          <h3>⏰ Timings</h3>
+          <p>Mon – Sun : 10:00 AM – 11:00 PM</p>
+        </div>
+      </div>
+
+      <div class="contact-extra">
+        <h3>🍦 Why Visit Us?</h3>
+        <ul>
+          <li>✨ Freshly churned Amul ice creams</li>
+          <li>🎉 Fun sundaes & milkshakes</li>
+          <li>🥳 Family-friendly parlor vibes</li>
+          <li>🧈 Utterly Butterly Delicious experience</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="fun-banner">
+  <h2>🥳 Utterly Butterly Delicious!</h2>
+  <p>🍧 Your happiness is just a scoop away. Visit us today! 🎶</p>
+</section>
+
+<footer>
+  <p>© 2026 Amul Ice Cream Parlor. 🧈 Utterly Butterly Delicious! 🍦</p>
+</footer>
+</body>
+</html>
