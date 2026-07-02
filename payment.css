@@ -1,0 +1,27 @@
+body{
+  background:#eef7f1;
+  font-family:Arial;
+}
+
+.payment-box{
+  width:400px;
+  margin:120px auto;
+  background:white;
+  padding:30px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,0.1);
+}
+
+select,button{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+}
+
+button{
+  background:#2e7d32;
+  color:white;
+  border:none;
+  border-radius:8px;
+}

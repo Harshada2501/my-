@@ -1,0 +1,26 @@
+body{
+  background:#f4faf6;
+  font-family:Arial;
+}
+
+.review-box{
+  width:400px;
+  margin:100px auto;
+  background:white;
+  padding:30px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,0.1);
+}
+
+select,textarea,button{
+  width:100%;
+  padding:12px;
+  margin-top:12px;
+}
+
+button{
+  background:#2e7d32;
+  color:white;
+  border:none;
+}

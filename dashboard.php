@@ -1,0 +1,21 @@
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+  header("Location: login.html");
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard | DairyFresh</title>
+</head>
+<body>
+
+<h1>Welcome 🥛 <?php echo $_SESSION['user']; ?> </h1>
+<p>You are successfully logged in!</p>
+
+<a href="logout.php">Logout</a>
+
+</body>
+</html>

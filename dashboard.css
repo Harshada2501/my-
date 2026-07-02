@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f0f7f2; 
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 30px;
+  font-size: 32px;
+  color:  #ff4081;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px 60px 60px;
+}
+
+.products .card {
+  background: #bc94ad;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.products .card:hover {
+  color: #2fea09;
+  transform: translateY(-8px);
+  box-shadow: 0 25px 55px rgba(46,125,50,0.25);
+}
+
+.image-box {
+  color: #ff4081;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.products .card:hover img {
+  transform: scale(1.05);
+}
+
+.products .card h3 {
+  margin: 15px 0 8px;
+  font-size: 20px;
+  color:  #50041d;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #011602;
+}
+
+.stock {
+  font-size: 14px;
+  color: #0f010b;
+  margin-bottom: 15px;
+}
+
+.products .card button {
+  padding: 12px 20px;
+  color:  #180108;  
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.products .card button:hover {
+  background:  #ff4081; 
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: #fffaf7;
+  color: #333;
+}
+
+.auth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff4081, #ff7043);
+}
+
+.auth-container {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  background: #fff;
+  border-radius: 20px; 
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.auth-left, .auth-right {
+  flex: 1;
+  padding: 40px;
+}
+
+.auth-left {
+  background: #ffe0eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.auth-left h1 {
+  font-size: 2rem;
+  color: #ff4081;
+  margin-bottom: 15px;
+}
+.auth-left p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.auth-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ff7043;
+  text-align: center;
+}
+.auth-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.auth-right input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.auth-right button {
+  background: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.auth-right button:hover {
+  background: #c79e91;
+}
+.auth-right p {
+  margin-top: 15px;
+  text-align: center;
+}
+.auth-right a {
+  color: #ff4081;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ff4081;
+  color: #fff;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #ff4081, #ff7043); 
+  color: #333;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.25); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);  
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 1000;
+}
+
+
+.logo{
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a73e8;
+}
+
+.logo span{
+  color: #ff4081;
+}
+
+nav{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #252424;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+nav a:hover{
+  color: #e91e63;
+}
+
+.auth-buttons{
+  display: flex;
+  gap: 12px;
+}
+
+.login-btn,
+.signup-btn{
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.login-btn{
+  background: #e91e63;
+}
+
+.signup-btn{
+  background: #2e7d32;
+}
+
+.login-btn:hover{
+  background: #c2185b;
+}
+
+.signup-btn:hover{
+  background: #1b5e20;
+}
